@@ -19,3 +19,21 @@ txt = "The rain in Spain"
 x = re.search("\s", txt)
 
 print("Hello:", x.start()) 
+
+#
+
+txt = "The rain in Spain"
+x = re.split("\s", txt)
+print(x)
+
+#
+
+txt = "The rain in Spain"
+x = re.sub("\s", "2", txt)
+print(x)
+
+#
+
+txt = "The rain in Spain"
+x = re.search(r"\bS\w+", txt)
+print(x.span())
