@@ -1,0 +1,10 @@
+name = input("What is your name? ")
+age = input("How old are you? ")
+place = input("What is your favorite place? ")
+animal = input("What is your favorite animal? ")
+dream = input("What is your dream? ")
+
+print("\n Short Story:")
+print(f"{name} went to visit {place} one day.")
+print(f"There, {name} saw a {animal}.")
+print(f"The {animal} told {name} that one day the dream of {dream} would come true.")
